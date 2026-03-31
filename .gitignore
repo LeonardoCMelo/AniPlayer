@@ -1,0 +1,37 @@
+# .gitignore para Visual Studio / C# / WPF
+
+# Pastas de compilação (Build)
+[Bb]in/
+[Oo]bj/
+
+# Pasta oculta e arquivos de cache do Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.rsuser
+
+# Arquivos de execução temporários
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
+
+# Pacotes do NuGet
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Arquivos de Log
+*.log
+*.err
+
+# Arquivos de Sistema Operacional (Windows/Mac)
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# ReSharper / JetBrains (Caso use no futuro)
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
